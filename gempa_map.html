@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_91e895f369fbf1ef65c41e919d75d09b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_91e895f369fbf1ef65c41e919d75d09b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_91e895f369fbf1ef65c41e919d75d09b = L.map(
+                "map_91e895f369fbf1ef65c41e919d75d09b",
+                {
+                    center: [-2.0, 120.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_91b1f7c6866da5e028008daf196cd90c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+                tile_layer_91b1f7c6866da5e028008daf196cd90c.addTo(map_91e895f369fbf1ef65c41e919d75d09b);
+    
+            var marker_616236484b759d351797b4512b4cb10e = L.marker(
+                [-2.19, 140.29],
+                {}
+            ).addTo(map_91e895f369fbf1ef65c41e919d75d09b);
+        
+    
+        var popup_cd9c08e49d54da5c9c328ac4ea9af065 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cebc7f61d5e4a6067c9280ba110b3d8 = $(`<div id="html_8cebc7f61d5e4a6067c9280ba110b3d8" style="width: 100.0%; height: 100.0%;">Magnitudo: 5.2 Lokasi: 45 km BaratLaut KAB-JAYAPURA-PAPUA</div>`)[0];
+                popup_cd9c08e49d54da5c9c328ac4ea9af065.setContent(html_8cebc7f61d5e4a6067c9280ba110b3d8);
+            
+        
+
+        marker_616236484b759d351797b4512b4cb10e.bindPopup(popup_cd9c08e49d54da5c9c328ac4ea9af065)
+        ;
+
+        
+    
+    
+            var marker_0c681f5690130368ffbfadf00c735fce = L.marker(
+                [-0.35, 98.75],
+                {}
+            ).addTo(map_91e895f369fbf1ef65c41e919d75d09b);
+        
+    
+        var popup_9f8a34090505f8a58ae3f4720ddcc32c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af105805a0efd10ebbe337a1c2e509d4 = $(`<div id="html_af105805a0efd10ebbe337a1c2e509d4" style="width: 100.0%; height: 100.0%;">Magnitudo: 5.4 Lokasi: 130 km BaratDaya PASAMANBARAT-SUMBAR</div>`)[0];
+                popup_9f8a34090505f8a58ae3f4720ddcc32c.setContent(html_af105805a0efd10ebbe337a1c2e509d4);
+            
+        
+
+        marker_0c681f5690130368ffbfadf00c735fce.bindPopup(popup_9f8a34090505f8a58ae3f4720ddcc32c)
+        ;
+
+        
+    
+    
+            var marker_bd89bceba5fcc84f6e3a4808bf8fac2a = L.marker(
+                [-6.79, 130.6],
+                {}
+            ).addTo(map_91e895f369fbf1ef65c41e919d75d09b);
+        
+    
+        var popup_8f3d2833fa736fae17e78b17a1c7d593 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b533aff5aa9845dbfbb43d9503df7d84 = $(`<div id="html_b533aff5aa9845dbfbb43d9503df7d84" style="width: 100.0%; height: 100.0%;">Magnitudo: 5.2 Lokasi: 152 km BaratLaut TANIMBAR</div>`)[0];
+                popup_8f3d2833fa736fae17e78b17a1c7d593.setContent(html_b533aff5aa9845dbfbb43d9503df7d84);
+            
+        
+
+        marker_bd89bceba5fcc84f6e3a4808bf8fac2a.bindPopup(popup_8f3d2833fa736fae17e78b17a1c7d593)
+        ;
+
+        
+    
+    
+            var marker_809789bb0e6fc958642177f1f5d09d90 = L.marker(
+                [-0.0, 124.08],
+                {}
+            ).addTo(map_91e895f369fbf1ef65c41e919d75d09b);
+        
+    
+        var popup_4f226b00de2da8071c3132a35222d8c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34778c1c8e6f39a9ac710d6e6173f29e = $(`<div id="html_34778c1c8e6f39a9ac710d6e6173f29e" style="width: 100.0%; height: 100.0%;">Magnitudo: 5.5 Lokasi: 42 km Tenggara BOLAANGUKI-BOLSEL-SULUT</div>`)[0];
+                popup_4f226b00de2da8071c3132a35222d8c3.setContent(html_34778c1c8e6f39a9ac710d6e6173f29e);
+            
+        
+
+        marker_809789bb0e6fc958642177f1f5d09d90.bindPopup(popup_4f226b00de2da8071c3132a35222d8c3)
+        ;
+
+        
+    
+    
+            var marker_5f5c807e3ab0b08b83277f29f3f7a76d = L.marker(
+                [-7.61, 128.79],
+                {}
+            ).addTo(map_91e895f369fbf1ef65c41e919d75d09b);
+        
+    
+        var popup_4c4bc4d1fb55cac616d873064840c92b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c0b7734cad20763ccfaa20712a68fcb = $(`<div id="html_7c0b7734cad20763ccfaa20712a68fcb" style="width: 100.0%; height: 100.0%;">Magnitudo: 5.1 Lokasi: 126 km TimurLaut MALUKUBRTDAYA</div>`)[0];
+                popup_4c4bc4d1fb55cac616d873064840c92b.setContent(html_7c0b7734cad20763ccfaa20712a68fcb);
+            
+        
+
+        marker_5f5c807e3ab0b08b83277f29f3f7a76d.bindPopup(popup_4c4bc4d1fb55cac616d873064840c92b)
+        ;
+
+        
+    
+    
+            var marker_5f33081e83f0232dd164ce6699192dd0 = L.marker(
+                [-10.47, 116.98],
+                {}
+            ).addTo(map_91e895f369fbf1ef65c41e919d75d09b);
+        
+    
+        var popup_9ddaf83d7123e38f619eb4f35b9004c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21357bb1b2bac3c31ce937e67f254323 = $(`<div id="html_21357bb1b2bac3c31ce937e67f254323" style="width: 100.0%; height: 100.0%;">Magnitudo: 5.1 Lokasi: 191 km Tenggara SUMBAWABARAT-NTB</div>`)[0];
+                popup_9ddaf83d7123e38f619eb4f35b9004c9.setContent(html_21357bb1b2bac3c31ce937e67f254323);
+            
+        
+
+        marker_5f33081e83f0232dd164ce6699192dd0.bindPopup(popup_9ddaf83d7123e38f619eb4f35b9004c9)
+        ;
+
+        
+    
+    
+            var marker_9b82f9c03aaf3c66aa16b5aa2942c05f = L.marker(
+                [-0.49, 101.36],
+                {}
+            ).addTo(map_91e895f369fbf1ef65c41e919d75d09b);
+        
+    
+        var popup_6e43003e516cb13a15a1e1f0ffa89f99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9affb4a36df773d7afca3770304c825d = $(`<div id="html_9affb4a36df773d7afca3770304c825d" style="width: 100.0%; height: 100.0%;">Magnitudo: 5.8 Lokasi: 19 km BaratDaya KUANTANSINGINGI-RIAU</div>`)[0];
+                popup_6e43003e516cb13a15a1e1f0ffa89f99.setContent(html_9affb4a36df773d7afca3770304c825d);
+            
+        
+
+        marker_9b82f9c03aaf3c66aa16b5aa2942c05f.bindPopup(popup_6e43003e516cb13a15a1e1f0ffa89f99)
+        ;
+
+        
+    
+    
+            var marker_3ad7972f4de884b4fa7add5098d81965 = L.marker(
+                [2.62, 128.23],
+                {}
+            ).addTo(map_91e895f369fbf1ef65c41e919d75d09b);
+        
+    
+        var popup_a07f3a7ebdd87eba02bb584d5979f035 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fbf1c273396b352c5766d8aae14d45b = $(`<div id="html_4fbf1c273396b352c5766d8aae14d45b" style="width: 100.0%; height: 100.0%;">Magnitudo: 5.3 Lokasi: 62 km TimurLaut PULAUDOI-MALUT</div>`)[0];
+                popup_a07f3a7ebdd87eba02bb584d5979f035.setContent(html_4fbf1c273396b352c5766d8aae14d45b);
+            
+        
+
+        marker_3ad7972f4de884b4fa7add5098d81965.bindPopup(popup_a07f3a7ebdd87eba02bb584d5979f035)
+        ;
+
+        
+    
+    
+            var marker_052577beaba23018bda7b6d51b76a161 = L.marker(
+                [-4.39, 139.67],
+                {}
+            ).addTo(map_91e895f369fbf1ef65c41e919d75d09b);
+        
+    
+        var popup_1c7eb653e3e319a7f72d56e38a78e9b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_834eee808300d676977a116aed13ffdc = $(`<div id="html_834eee808300d676977a116aed13ffdc" style="width: 100.0%; height: 100.0%;">Magnitudo: 5.5 Lokasi: 19 km TimurLaut YAHUKIMO-PAPUAPGNGN</div>`)[0];
+                popup_1c7eb653e3e319a7f72d56e38a78e9b0.setContent(html_834eee808300d676977a116aed13ffdc);
+            
+        
+
+        marker_052577beaba23018bda7b6d51b76a161.bindPopup(popup_1c7eb653e3e319a7f72d56e38a78e9b0)
+        ;
+
+        
+    
+    
+            var marker_8707362a44afe9bccef08e87e23de3fd = L.marker(
+                [-3.55, 141.05],
+                {}
+            ).addTo(map_91e895f369fbf1ef65c41e919d75d09b);
+        
+    
+        var popup_f28e642b0f7bd9481235cf0e49077b90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_026676425efe26538015f47593b04f42 = $(`<div id="html_026676425efe26538015f47593b04f42" style="width: 100.0%; height: 100.0%;">Magnitudo: 5.3 Lokasi: 39 km Tenggara KEEROM-PAPUA</div>`)[0];
+                popup_f28e642b0f7bd9481235cf0e49077b90.setContent(html_026676425efe26538015f47593b04f42);
+            
+        
+
+        marker_8707362a44afe9bccef08e87e23de3fd.bindPopup(popup_f28e642b0f7bd9481235cf0e49077b90)
+        ;
+
+        
+    
+    
+            var marker_60d8a04d744e7709d2e9f0a85dfbc264 = L.marker(
+                [5.74, 125.5],
+                {}
+            ).addTo(map_91e895f369fbf1ef65c41e919d75d09b);
+        
+    
+        var popup_5f370878c06bf06867fea120cc79d837 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dda34a5e228723db4e695c6f22b6d1e = $(`<div id="html_2dda34a5e228723db4e695c6f22b6d1e" style="width: 100.0%; height: 100.0%;">Magnitudo: 5.6 Lokasi: 206 km BaratLaut PULAUKARATUNG-SULUT</div>`)[0];
+                popup_5f370878c06bf06867fea120cc79d837.setContent(html_2dda34a5e228723db4e695c6f22b6d1e);
+            
+        
+
+        marker_60d8a04d744e7709d2e9f0a85dfbc264.bindPopup(popup_5f370878c06bf06867fea120cc79d837)
+        ;
+
+        
+    
+    
+            var marker_13e157deef2f562fa579f0d3ad6130c4 = L.marker(
+                [-1.15, 126.83],
+                {}
+            ).addTo(map_91e895f369fbf1ef65c41e919d75d09b);
+        
+    
+        var popup_1b85b9137faa64f9ae6073fd10957b5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8410eb887ccef9221dc013cd547b536b = $(`<div id="html_8410eb887ccef9221dc013cd547b536b" style="width: 100.0%; height: 100.0%;">Magnitudo: 5.0 Lokasi: 92 km BaratDaya LABUHA-MALUT</div>`)[0];
+                popup_1b85b9137faa64f9ae6073fd10957b5e.setContent(html_8410eb887ccef9221dc013cd547b536b);
+            
+        
+
+        marker_13e157deef2f562fa579f0d3ad6130c4.bindPopup(popup_1b85b9137faa64f9ae6073fd10957b5e)
+        ;
+
+        
+    
+    
+            var marker_c461388db95456740163b72e27c80b33 = L.marker(
+                [2.64, 128.24],
+                {}
+            ).addTo(map_91e895f369fbf1ef65c41e919d75d09b);
+        
+    
+        var popup_435eefc50e76b30489ab63adacbc2e61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b06f60b82e04e7132f6915161c26f3c = $(`<div id="html_0b06f60b82e04e7132f6915161c26f3c" style="width: 100.0%; height: 100.0%;">Magnitudo: 5.6 Lokasi: 64 km TimurLaut PULAUDOI-MALUT</div>`)[0];
+                popup_435eefc50e76b30489ab63adacbc2e61.setContent(html_0b06f60b82e04e7132f6915161c26f3c);
+            
+        
+
+        marker_c461388db95456740163b72e27c80b33.bindPopup(popup_435eefc50e76b30489ab63adacbc2e61)
+        ;
+
+        
+    
+    
+            var marker_f3f915a57b938be7ef8b3303497ae73e = L.marker(
+                [-2.69, 129.46],
+                {}
+            ).addTo(map_91e895f369fbf1ef65c41e919d75d09b);
+        
+    
+        var popup_5e6859158a0f0e9c2b8bd2218eeb760e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_337bb488c1e98f20843d2b0786059a6e = $(`<div id="html_337bb488c1e98f20843d2b0786059a6e" style="width: 100.0%; height: 100.0%;">Magnitudo: 5.2 Lokasi: 87 km TimurLaut MALUKUTENGAH</div>`)[0];
+                popup_5e6859158a0f0e9c2b8bd2218eeb760e.setContent(html_337bb488c1e98f20843d2b0786059a6e);
+            
+        
+
+        marker_f3f915a57b938be7ef8b3303497ae73e.bindPopup(popup_5e6859158a0f0e9c2b8bd2218eeb760e)
+        ;
+
+        
+    
+    
+            var marker_9cdc8516e659810f2ac69084cca70539 = L.marker(
+                [-2.67, 129.62],
+                {}
+            ).addTo(map_91e895f369fbf1ef65c41e919d75d09b);
+        
+    
+        var popup_e777ea195ff13ca4de26d1037a9a3318 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f123cd61a269c3f8ecf8457e7b0ead6 = $(`<div id="html_4f123cd61a269c3f8ecf8457e7b0ead6" style="width: 100.0%; height: 100.0%;">Magnitudo: 5.0 Lokasi: 101 km TimurLaut MALUKUTENGAH</div>`)[0];
+                popup_e777ea195ff13ca4de26d1037a9a3318.setContent(html_4f123cd61a269c3f8ecf8457e7b0ead6);
+            
+        
+
+        marker_9cdc8516e659810f2ac69084cca70539.bindPopup(popup_e777ea195ff13ca4de26d1037a9a3318)
+        ;
+
+        
+    
+</script>
+</html>
